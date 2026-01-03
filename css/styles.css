@@ -63,8 +63,8 @@ fieldset {
 }
 
 img {
-    width: 100%;
-    height: auto;
+    max-height: 250px;
+    max-width: 100%;
     border: 1px solid var(--accent-color);
     border-radius: 10px;
     box-shadow: 0 0 10px var(--accent-color);
@@ -114,7 +114,7 @@ legend {
 
 a:hover {
     text-decoration: underline;
-    filter: hue-rotate(180deg);
+    color: rgb(255, 0, 255);
 }
 
 hr {
