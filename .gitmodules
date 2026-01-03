@@ -1,0 +1,3 @@
+[submodule "osjproject"]
+	path = osjproject
+	url = https://github.com/chorwat2137/osjproject.git
