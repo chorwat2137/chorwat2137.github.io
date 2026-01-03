@@ -29,7 +29,6 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 10px;
 }
 
 a {
@@ -41,7 +40,7 @@ br {
     margin-bottom: 10px;
 }
 
-.links {
+fieldset.links {
     width: 90%;
     max-width: 600px;
     text-align: left;
@@ -49,6 +48,7 @@ br {
     border: 1px solid var(--accent-color);
     border-radius: 10px;
     padding: 10px 10px 15px 10px;
+    margin-top: 20px;
 }
 
 footer {
@@ -84,10 +84,18 @@ fieldset.links legend {
     color: black;
     font-weight: bold;
     margin: auto;
-}   
-li{
+
+}
+
+li {
     color: var(--accent-color);
 }
-legend{
+
+legend {
     margin: auto;
+}
+
+a:hover {
+    text-decoration: underline;
+    filter: hue-rotate(180deg);
 }
