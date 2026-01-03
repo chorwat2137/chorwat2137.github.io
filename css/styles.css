@@ -47,7 +47,7 @@ br {
     font-size: 1.2em;
     border: 1px solid var(--accent-color);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 10px 15px 10px;
 }
 
 footer {
@@ -59,6 +59,7 @@ footer {
     text-align: center;
     padding: 10px 0;
 }
+
 
 nav {
     position: fixed;
@@ -83,3 +84,6 @@ fieldset.links legend {
     color: black;
     font-weight: bold;
 }   
+li{
+    color: var(--accent-color);
+}
