@@ -73,25 +73,21 @@ img {
 footer {
     position: fixed;
     bottom: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+    right: 0;
+    background-color: rgb(0, 0, 0);
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 0 10px var(--accent-color);
 }
 
 nav {
-    border: 1px solid var(--accent-color);
     position: fixed;
-    top: 15px;
-    left: 15px;
-    background-color: rgb(0, 0, 0);
-    padding: 4px;
+    top: 0;
     color: white;
-    text-align: left;
-    font-size: 1.5em;
-    box-shadow: 0 0 10px var(--accent-color);
-    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
 
 }
 
