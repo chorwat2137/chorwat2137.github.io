@@ -1,3 +1,6 @@
 [submodule "osjproject"]
 	path = osjproject
 	url = https://github.com/chorwat2137/osjproject.git
+[submodule "informat2"]
+	path = informat2
+	url = https://github.com/chorwat2137/informat2.git
